@@ -1,0 +1,130 @@
+#main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-nav ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#section-a .section-a-box {
+  display: none;
+}
+
+#section-a .section-a-content h1 {
+  text-align: center;
+}
+
+#section-b .section-b-boxes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#section-c .section-c-content img {
+  display: none;
+}
+
+#section-c .section-c-content .section-c-box {
+  margin: 0;
+  text-align: center;
+  max-width: 80%;
+}
+
+#section-d .section-d-content .section-d-boxes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-d .section-d-content .section-d-boxes .section-d-box {
+  margin: auto;
+}
+
+#section-e .section-e-content .section-e-boxes {
+  display: none;
+}
+
+#section-e .section-e-content .section-e-left {
+  align-items: center;
+  text-align: center;
+}
+
+#section-f .section-f-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#section-f .section-f-content .button {
+  text-align: center;
+}
+
+#section-g .section-g-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#section-g .section-g-content .g-content-right .g-right-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#section-g .section-g-content .g-content-right .g-right-boxes .left,
+#section-g .section-g-content .g-content-right .g-right-boxes .right {
+  display: none;
+}
+
+#section-h .section-h-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#section-h .section-h-content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  margin-top: 2rem;
+}
+
+#section-h .section-h-content form input {
+  width: 300px;
+}
+
+#section-h .section-h-content form textarea {
+  width: 280px;
+}
+
+#section-h .section-h-content .submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#section-h .section-h-content .submit button {
+  margin: 0;
+}
+
+#main-footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
